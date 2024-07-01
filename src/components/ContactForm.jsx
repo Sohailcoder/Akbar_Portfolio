@@ -17,7 +17,7 @@ const ContactForm = () => {
     console.log('Sending data:', { name, email, message });
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/send",
+        "mongodb+srv://Akbar:Akbar%4000@cluster0.gzdovd0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         { name, email, message },
         {
           headers: { "Content-Type": "application/json" },
