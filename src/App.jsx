@@ -20,9 +20,9 @@ function App() {
         <Hero/>
         <Aboutus/>
         <Software/>
-        {/* <Projects/> */}
+        
         <Projects3/>
-        {/* <Form/> */}
+        
         <ContactForm/>
       </div>
       
